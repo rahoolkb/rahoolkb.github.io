@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Researcher</title>
+  <meta name="description" content="Academic profile of Your Name — Project Researcher, Kavli IPMU. High-energy physics, machine learning for collider physics, SUSY, dark matter." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#ffffff;--fg:#0f172a;--muted:#475569;--link:#2563eb;--chip:#eef2ff;--border:#e5e7eb;--card:#f8fafc}
+    @media (prefers-color-scheme: dark){:root{--bg:#0b1220;--fg:#e5e7eb;--muted:#9ca3af;--link:#93c5fd;--chip:#0f172a;--border:#1f2937;--card:#111827}}
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+    .container{max-width:980px;margin:0 auto;padding:28px 20px 60px}
+    header{display:flex;flex-direction:column;gap:18px;padding:28px 0 10px}
+    .title{font-size:clamp(28px,5vw,44px);font-weight:800;letter-spacing:-0.02em}
+    .subtitle{font-size:clamp(16px,3.2vw,18px);color:var(--muted)}
+    nav{display:flex;flex-wrap:wrap;gap:10px}
+    nav a{padding:9px 12px;border:1px solid var(--border);border-radius:999px;text-decoration:none;color:var(--fg);background:var(--chip)}
+    .section{margin-top:36px;padding:22px;border:1px solid var(--border);border-radius:18px;background:var(--card)}
+    .section h2{margin:0 0 14px;font-size:22px}
+    .grid{display:grid;gap:14px}
+    .grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+    @media (max-width:760px){.grid.two{grid-template-columns:1fr}}
+    .item{padding:14px 0;border-top:1px dashed var(--border)}
+    .item:first-child{border-top:none}
+    .badge{display:inline-block;margin-right:8px;margin-bottom:6px;padding:6px 10px;border-radius:999px;background:var(--chip);font-size:12px;color:var(--muted)}
+    a{color:var(--link)}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 13px; color: var(--muted)}
+    .links{display:flex;flex-wrap:wrap;gap:12px}
+    .card{padding:16px;border:1px solid var(--border);border-radius:14px;background:var(--bg)}
+    footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--border);font-size:13px;color:var(--muted)}
+    .pill{display:inline-block;padding:4px 10px;border:1px solid var(--border);border-radius:999px;margin-right:6px}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title">Your Name</div>
+      <div class="subtitle">Project Researcher, <strong>Kavli IPMU</strong> (WPI), The University of Tokyo · Kashiwa, Japan</div>
+      <nav aria-label="Section navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#highlights">Selected Highlights</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I am a project researcher at <strong>Kavli IPMU</strong>, working at the interface of
+        <em>particle physics phenomenology</em> and <em>machine learning for collider physics</em>.
+        My recent work explores generative models and transformers for mass reconstruction, top-quark
+        tagging, and precision probes of electroweak and BSM scenarios.
+      </p>
+      <div class="links" aria-label="Profiles and links">
+        <a class="pill" href="#" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">ORCID</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">INSPIRE-HEP</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">arXiv</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">GitHub</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="pill" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <h2>Research Interests</h2>
+      <div class="grid two">
+        <div class="card">
+          <div class="badge">Collider ML</div>
+          <p>Generative models (diffusion/normalizing flows) and transformers for parameter and state reconstruction in hadron collider environments.</p>
+        </div>
+        <div class="card">
+          <div class="badge">Top Quark</div>
+          <p>Modern ML for top reconstruction and tagging; implications for EFT and non-standard interactions; performance and systematics.</p>
+        </div>
+        <div class="card">
+          <div class="badge">BSM & DM</div>
+          <p>Singlino-dominated neutralino dark matter in the NMSSM; resonant annihilation and co-annihilation corridors vs. current constraints.</p>
+        </div>
+        <div class="card">
+          <div class="badge">Electroweak</div>
+          <p>Precision probes of electroweak gauge interactions (e.g., <span class="mono">γjj</span>) with likelihood-free inference and sequence models.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="highlights" class="section">
+      <h2>Selected Highlights</h2>
+      <div class="item">
+        <strong>Hybrid generative + transformer model for mass reconstruction</strong>
+        — reconstructs heavy-particle masses from detector-level features over a wide parameter space, outperforming classical methods.
+        <span class="mono">[preprint / code links]</span>
+      </div>
+      <div class="item">
+        <strong>Survey of ML techniques for top-quark reconstruction</strong>
+        — ~10–15% improvements in tagging/reco metrics across benchmarks; sensitivity studies for non-standard interactions.
+        <span class="mono">[review / repo]</span>
+      </div>
+      <div class="item">
+        <strong>NMSSM singlino dark matter parameter space</strong>
+        — resonant-Higgs and co-annihilation regimes consistent with relic density and current LHC/DD bounds.
+        <span class="mono">[paper / plots]</span>
+      </div>
+      <div class="item">
+        <strong>HL-LHC reach for lepton-number-violation signals in radiative ν-mass models</strong>
+        — identifies new discovery windows beyond Run‑2 sensitivity.
+        <span class="mono">[work in progress]</span>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="item">
+        <strong>Project Researcher</strong>, Kavli IPMU (WPI), The University of Tokyo — <em>20XX–present</em>
+      </div>
+      <div class="item">
+        <strong>Postdoctoral Research</strong>, [Institute / University] — <em>20XX–20XX</em>
+      </div>
+      <div class="item">
+        <strong>Research Associate / PhD Researcher</strong>, [Institute / University] — <em>20XX–20XX</em>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="item">
+        <strong>Ph.D. in Physics</strong>, [University], [Year]. Thesis: [Title]. Advisor: [Name].
+      </div>
+      <div class="item">
+        <strong>M.Sc. in Physics</strong>, [University], [Year].
+      </div>
+      <div class="item">
+        <strong>B.Sc. in Physics</strong>, [University], [Year].
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications (Selected)</h2>
+      <p>See <a href="#" target="_blank" rel="noopener">Google Scholar</a> / <a href="#" target="_blank" rel="noopener">INSPIRE</a> / <a href="#" target="_blank" rel="noopener">arXiv</a> for a complete list.</p>
+      <ul>
+        <li>[Year] Title, <em>Journal</em> <span class="mono">[arXiv:xxxx.xxxxx]</span></li>
+        <li>[Year] Title, <em>Journal</em> <span class="mono">[arXiv:xxxx.xxxxx]</span></li>
+        <li>[Year] Title, <em>Journal</em> <span class="mono">[arXiv:xxxx.xxxxx]</span></li>
+      </ul>
+    </section>
+
+    <section id="teaching" class="section">
+      <h2>Teaching & Service</h2>
+      <ul>
+        <li>[Course], [Institute], [Term], Instructor/TA.</li>
+        <li>Seminar organizer / Journal club: [Topic], [Year].</li>
+        <li>Referee for: [Journals].</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:you@institute.edu">you@institute.edu</a> · <strong>Office:</strong> [Building/Room]</p>
+      <p class="mono">Last updated: YYYY‑MM‑DD</p>
+    </section>
+
+    <footer>
+      <span>© Your Name. Built with GitHub Pages. Feel free to copy this layout (MIT‑style).</span>
+    </footer>
+  </div>
+</body>
+</html>
