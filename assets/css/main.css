@@ -4343,3 +4343,9 @@ button.primary,
 }
 
 #five .inner{ background: rgba(0, 150, 136, 0.06); }
+
+.intro-affiliation {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    font-weight: 500;
+}
