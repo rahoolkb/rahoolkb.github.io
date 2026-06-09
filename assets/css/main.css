@@ -4099,7 +4099,7 @@ button.primary,
 
 .intro-subbrand{
   margin-top: 0.35rem;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   opacity: 0.85;
   color: #312450;         /* subheading color */
 }
@@ -4346,7 +4346,7 @@ button.primary,
 
 .intro-affiliation{
   margin-top: 0.45rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.2;
