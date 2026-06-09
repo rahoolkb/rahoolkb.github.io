@@ -4344,8 +4344,12 @@ button.primary,
 
 #five .inner{ background: rgba(0, 150, 136, 0.06); }
 
-.intro-affiliation {
-    font-size: 0.75rem;
-    margin-top: 0.25rem;
-    font-weight: 400;
+.intro-affiliation{
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #4a3a75;
+  opacity: 0.9;
 }
