@@ -4344,16 +4344,6 @@ button.primary,
 
 #five .inner{ background: rgba(0, 150, 136, 0.06); }
 
-.intro-affiliation{
-  margin-top: 0.45rem;
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  color: #4a3a75;
-  opacity: 0.9;
-}
-
 .intro-subbrand{
 
   margin-top: 0.35rem;
